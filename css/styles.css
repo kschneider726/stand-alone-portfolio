@@ -32,7 +32,6 @@ figure {
 
 .lg-image {
     box-shadow: 0 0 30px #333;
-    
 }
 
 /********************
@@ -44,7 +43,7 @@ MEDIA QUERIES
   /* Diagnostic Styling. */
   body {
        background: red;
-  } 
+  }
   
 }
 
