@@ -2,6 +2,21 @@
 YOUR STYLES
 *******************/
 
+/* Global or Sitewide */
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: .8em;
+    color: black;
+    line-height: 1.6;
+    background: url("../img/arrows-bg.jpg");
+    background-repeat: round;
+    opacity: 1;
+}
+
 
 /* Header */
 header {
