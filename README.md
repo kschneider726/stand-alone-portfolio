@@ -1,2 +1,2 @@
 # stand-alone-portfolio
-Stand Alone Portfolio
+http://kschneider726.github.io/stand-alone-portfolio
