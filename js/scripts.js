@@ -1,19 +1,20 @@
 // Randomize Header
+var max = 3;
+var randNum = Math.floor(Math.random() * max );
+console.log(randNum);
 
-// Store & Generate Number
-var maxRand = 3;
-var numRand = Math.floor( Math.random() * maxRand );
-//console.log(numRand);
+// Store Images
+var img0 = '/img/thumbs/Tbuda1.jpg';
+var img1 = '/img/thumbs/Tbuda2.jpg';
+var img2 = '/img/thumbs/Tmexico1.jpg';
 
-// Store images
-var img0 = '/img/fullsize/1.jpg';
-var img1 = '/img/fullsize/2.jpg';
-var img2 = '/img/fullsize/3.jpg';
 
 // Show Images
-$('header img').attr('src', eval('img' + numRand) );
 
-// Activate Gallery
+$('header img').attr('src', eval('img' + randNum) );
+
+//Activate Gallery
+
 $('figure').lightGallery({
     selector: 'a'
 });
